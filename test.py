@@ -82,5 +82,44 @@ range(5, 10)
 [10, 9, 8, 7, 6, 5, 4, 3, 2]
 >>>
 
+# String
+
+>>> "David"
+'David'
+>>> my_name = "David"
+>>> my_name[3]
+'i'
+>>> my_name*2
+'DavidDavid'
+>>> len(my_name)
+5
+>>>
+
+>>> my_name
+'David'
+>>> my_name.upper()
+'DAVID'
+>>> my_name.center(10)
+' David '
+>>> my_name.find('v')
+2
+>>> my_name.split('v')
+['Da', 'id']
+>>>
+
+# Dictionary
+
+>>> capitals = {'Iowa':'DesMoines','Wisconsin':'Madison'}
+>>> capitals
+{'Wisconsin': 'Madison', 'Iowa': 'DesMoines'}
+>>>
+capitals = {'Iowa':'DesMoines','Wisconsin':'Madison'}
+print(capitals['Iowa'])
+capitals['Utah']='SaltLakeCity'
+print(capitals)
+capitals['California']='Sacramento'
+print(len(capitals))
+for k in capitals:
+print(capitals[k]," is the capital of ", k)
 
 
