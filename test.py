@@ -66,4 +66,21 @@ print(my_list)
 del my_list[0]
 print(my_list)
 
+# Range
+
+>>> range(10)
+range(0, 10)
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> range(5,10)
+range(5, 10)
+>>> list(range(5,10))
+[5, 6, 7, 8, 9]
+>>> list(range(5,10,2))
+[5, 7, 9]
+>>> list(range(10,1,-1))
+[10, 9, 8, 7, 6, 5, 4, 3, 2]
+>>>
+
+
 
