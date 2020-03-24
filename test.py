@@ -147,5 +147,15 @@ dict_items([('brad', 1137), ('david', 1410)])
 {'brad': 1137}
 >>>
 
+# Input and Output
+
+user_name = input('Please enter your name: ')
+user_name = input("Please enter your name ")
+print("Your name in all capitals is",user_name.upper(),"and has length", len(user_name))
+
+user_radius = input("Please enter the radius of the circle ")
+radius = float(user_radius)
+diameter = 2 * radius
+
 
 
