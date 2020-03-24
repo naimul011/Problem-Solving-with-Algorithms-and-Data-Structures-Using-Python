@@ -122,4 +122,30 @@ print(len(capitals))
 for k in capitals:
 print(capitals[k]," is the capital of ", k)
 
+dict_keys(['brad', 'david'])
+>>> list(phone_ext.keys())
+['brad', 'david']
+>>> "brad" in phone_ext
+>>> True
+>>> 1137 in phone_ext
+>>> False
+# 1137 is not a key in phone_ext
+>>> phone_ext.values() # Returns the values of the dictionary
+phone_ext
+dict_values([1137, 1410])
+>>> list(phone_ext.values())
+[1137, 1410]
+>>> phone_ext.items()
+dict_items([('brad', 1137), ('david', 1410)])
+>>> list(phone_ext.items())
+[('brad', 1137), ('david', 1410)]
+>>> phone_ext.get("kent")
+>>> phone_ext.get("kent","NO ENTRY")
+'NO ENTRY'
+>>> del phone_ext["david"]
+>>> phone_ext
+{'brad': 1137}
+>>>
+
+
 
