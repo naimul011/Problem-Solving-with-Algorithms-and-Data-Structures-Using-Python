@@ -157,5 +157,36 @@ user_radius = input("Please enter the radius of the circle ")
 radius = float(user_radius)
 diameter = 2 * radius
 
+# Control Structures
+
+# While loop
+>>> counter = 1
+>>> while counter <= 5:
+	print("Hello, world")
+	counter = counter + 1
+# For loop
+for item in [1,3,6,2,5]:
+	print(item)
+
+for item in range(5):
+	print(item ** 2)
+
+word_list = ['cat','dog','rabbit']
+letter_list = [ ]
+for a_word in word_list:
+	for a_letter in a_word:
+		letter_list.append(a_letter)
+print(letter_list)
+
+# If condition
+
+if n < 0:
+	print("Sorry, value is negative")
+else:
+	print(math.sqrt(n))
+
+if n < 0:
+	n = abs(n)
+print(math.sqrt(n))
 
 
