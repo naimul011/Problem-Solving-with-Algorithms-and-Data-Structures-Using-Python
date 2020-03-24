@@ -31,4 +31,39 @@ True
 >>> the_sum
 True
 
+# Built-in Collection Data Types
+
+>>>[1,3,True,6.5]
+[1,3,True,6.5]
+3, True, 6.5]
+>>>my_list = [1,3,True,6.5]
+>>>my_list
+3, True, 6.5]
+
+>>> my_list = [0] * 6
+>>> my_list
+[0, 0, 0, 0, 0, 0]
+
+my_list = [1024, 3, True, 6.5]
+my_list.append(False)
+print(my_list)
+my_list.insert(2,4.5)
+print(my_list)
+print(my_list.pop())
+print(my_list)
+print(my_list.pop(1))
+print(my_list)
+my_list.pop(2)
+print(my_list)
+my_list.sort()
+print(my_list)
+my_list.reverse()
+print(my_list)
+print(my_list.count(6.5))
+print(my_list.index(4.5))
+my_list.remove(6.5)
+print(my_list)
+del my_list[0]
+print(my_list)
+
 
